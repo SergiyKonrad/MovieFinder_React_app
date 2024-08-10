@@ -68,6 +68,11 @@ h1 {
   background: #1f2123;
 }
 
+.search input::placeholder {
+  color: #a1a1a1;
+  opacity: 0.8;
+}
+
 .search img {
   width: 35px;
   height: 35px;
@@ -115,6 +120,42 @@ h1 {
   flex-wrap: wrap;
 }
 
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #343739;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  z-index: 1000;
+  color: #f9d3b4;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+}
+
+.modal h2 {
+  color: #f9d1af;
+}
+.modal p {
+  color: #f8eee7;
+}
+
+.modal p strong {
+  color: rgb(69, 190, 250);
+}
+
+.modal button {
+  background-color: #ff6347;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
 .movie {
   width: 310px;
   height: 460px;
@@ -136,6 +177,7 @@ h1 {
   opacity: 0;
   top: 0;
   color: #f9d3b4;
+  transition: opacity 0.3s ease;
 }
 
 .movie:hover {
@@ -158,6 +200,8 @@ h1 {
   background-color: #343739;
   padding: 16px 24px 24px 24px;
 
+  transition: opacity 0.3s ease;
+
   position: absolute;
   bottom: 0;
   right: 0;
@@ -177,6 +221,9 @@ h1 {
   margin-top: 5px;
   font-family: 'Roboto Slab', serif;
   color: #f9d3b4;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .movie:hover div:nth-of-type(2) {
@@ -226,7 +273,7 @@ h1 {
   }
 
   .movie {
-    width: '100%';
+    width: 100%;
     margin: 1rem;
   }
 }
