@@ -29,10 +29,19 @@ const App = () => {
   }
 
   const fetchMovieDetails = async (id) => {
-    const response = await fetch(`${API_URL}&i=${id}`)
-    const data = await response.json()
-
-    setSelectedMovie(data)
+    try {
+      const response = await fetch(`${API_URL}&i=${id}`)
+      if (!response.ok) {
+        throw new Error('Network response was not ok')
+      }
+      const data = await response.json()
+      setSelectedMovie(data)
+    } catch (error) {
+      console.error('Fetch error:', error)
+      alert(
+        'Failed to load movie details. Please check your internet connection.',
+      )
+    }
   }
 
   useEffect(() => {
