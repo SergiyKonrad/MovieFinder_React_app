@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+MovieLand 🎬
+MovieLand is a React-based web application that allows users to search for movies and view details about them. It fetches data from the OMDB API and displays the results in a clean, user-friendly interface.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Search Movies: Users can search for movies by title using the search bar.
+Movie Details: Click on a movie to view detailed information, including the year, type, and plot.
+Responsive Design: The app is fully responsive and works on all screen sizes.
+Real-time Search: The app fetches movie results as users type in the search bar.
+Demo
+Check out the live demo of the application here.
 
-## Available Scripts
+GETTING STARTED:
 
-In the project directory, you can run:
+Prerequisites
+Ensure you have Node.js and npm installed. You can download them here.
 
-### `npm start`
+_Installation:_
+1.Clone the repository:
+git clone https://github.com/SergiyKonrad/my_movie_react_app.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+then:
+cd my_movie_react_app
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2.Install the dependencies:
+npm install
 
-### `npm test`
+_Running the App Locally_
+Start the development server:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm start
 
-### `npm run build`
+Open http://localhost:3000 to view it in the browser. The page will reload if you make edits.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+_Building the App_
+To create a production build, run:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm run build
+This will generate the build files in the build/ directory.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_Deploying to GitHub Pages_
+To deploy the app to GitHub Pages, use the following command:
 
-### `npm run eject`
+npm run deploy
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+_Tech Stack_
+React: Frontend library used to build the user interface.
+OMDB API: Used to fetch movie data.
+CSS: Styling of the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Acknowledgements
+OMDB API for providing the movie data.
+Create React App for bootstrapping the project.
