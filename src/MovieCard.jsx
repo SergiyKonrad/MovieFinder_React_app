@@ -12,8 +12,14 @@ const MovieCard = ({ movie, onClick }) => {
           src={
             movie.Poster !== 'N/A'
               ? movie.Poster
-              : 'https://via.placeholder.com/400'
+              : 'https://via.placeholder.com/400x600?text=No+Image'
           }
+          /*    src={
+       movie.Poster !== 'N/A'
+         ? movie.Poster
+        : 'https://your-image-url.com/placeholder-image.png'
+     }*/
+
           alt={movie.Title}
         />
       </div>
