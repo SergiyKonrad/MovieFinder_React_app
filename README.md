@@ -1,6 +1,6 @@
-# 🎬 MovieLand
+# 🎬 MovieFinder
 
-MovieLand is a React-based web application that allows users to search for movies and view details about them. It fetches data from the OMDB API and displays the results in a clean, user-friendly interface.
+MovieFinder is a React-based web application that allows users to search for movies and view details about them. It fetches data from the OMDB API and displays the results in a clean, user-friendly interface.
 ## Features
 
 - **Search Movies:** Users can search for movies by title using the search bar.
