@@ -13,10 +13,19 @@ const App = () => {
   const [searchTerm, setSearchTerm] = useState('')
 
   const searchMovies = async (title) => {
-    const response = await fetch(`${API_URL}&s=${title}`)
-    const data = await response.json()
+    try {
+      const response = await fetch(`${API_URL}&s=${title}`)
+      if (!response.ok) {
+        throw new Error('Network response was not ok')
+      }
+      const data = await response.json()
 
-    setMovies(data.Search)
+      setMovies(data.Search)
+    } catch (error) {
+      console.error('Fetch error:', error)
+      setMovies([]) // Optionally clear the movie list
+      alert('Failed to load data. Please check your internet connection.')
+    }
   }
 
   const fetchMovieDetails = async (id) => {
