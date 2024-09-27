@@ -21,7 +21,8 @@ dist-ssr/
 
 # Editor directories and files
 .vscode/*
-!.vscode/extensions.json  # Keeps the extensions.json for recommended VS Code extensions
+#  Keeps the extensions.json for recommended VS Code extensions
+!.vscode/extensions.json 
 .idea/
 .DS_Store
 *.suo
