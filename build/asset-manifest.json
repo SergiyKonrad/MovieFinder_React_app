@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/MovieFinder_React_app/static/css/main.428f0291.css",
+    "main.js": "/MovieFinder_React_app/static/js/main.59179823.js",
+    "index.html": "/MovieFinder_React_app/index.html",
+    "static/media/search.svg": "/MovieFinder_React_app/static/media/search.134c231e99414321aa6f00e63b9586c8.svg",
+    "main.428f0291.css.map": "/MovieFinder_React_app/static/css/main.428f0291.css.map",
+    "main.59179823.js.map": "/MovieFinder_React_app/static/js/main.59179823.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.428f0291.css",
+    "static/js/main.59179823.js"
+  ]
+}
