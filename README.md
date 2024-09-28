@@ -23,26 +23,26 @@ Ensure you have Node.js and npm installed. You can download them [here](https://
 
 1. Clone the repository:
 
-```
+```bash
    git clone https://github.com/SergiyKonrad/MovieFinder_React_app.git
 
 ```
 
 2. Navigate to the project directory:
 
-```
+```bash
 cd MovieFinder_React_app
 ```
 
 3. Install the dependencies:
 
-```
+```bash
    npm install
 ```
 
 4. Start the development server:
 
-```
+```bash
    npm start
 ```
 
