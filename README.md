@@ -13,6 +13,9 @@ MovieFinder is a React-based web application that allows users to search for mov
 
 Check out the live demo of the application [here](https://movie-finder-react-app-36md.vercel.app/).
 
+Check out the live demo of the application <a href="https://movie-finder-react-app-36md.vercel.app/" target="_blank">here</a>.
+
+
 ## Getting Started
 
 ### Prerequisites
