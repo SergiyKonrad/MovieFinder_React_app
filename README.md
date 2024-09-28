@@ -6,12 +6,12 @@ MovieFinder is a React-based web application that allows users to search for mov
 
 - **Search Movies:** Users can search for movies by title using the search bar.
 - **Movie Details:** Click on a movie to view detailed information, including the year, type, and plot.
-- **Responsive Design:** The app is fully responsive and works on all screen sizes.
-- **Real-time Search:** The app fetches movie results as users type in the search bar.
+- **Responsive Design:** The app is fully responsive and works across all screen sizes.
+- **Real-time Search:** The app fetches movie results dynamically as users type in the search bar.
 
 ## Demo
 
-Check out the live demo of the application [here](https://sergiykonrad.github.io/MovieFinder_React_app/).
+Check out the live demo of the application [here](https://movie-finder-react-app-36md.vercel.app/).
 
 ## Getting Started
 
@@ -23,19 +23,28 @@ Ensure you have Node.js and npm installed. You can download them [here](https://
 
 1. Clone the repository:
 
+```
    git clone https://github.com/SergiyKonrad/MovieFinder_React_app.git
+
+```
 
 2. Navigate to the project directory:
 
-   cd my_movie_react_app
+```
+cd MovieFinder_React_app
+```
 
 3. Install the dependencies:
 
+```
    npm install
+```
 
 4. Start the development server:
 
+```
    npm start
+```
 
 ## License
 
